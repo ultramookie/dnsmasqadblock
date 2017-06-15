@@ -6,5 +6,6 @@ On Debian/Ubuntu:
 
 * apt-get install dnsmasq
 * Copy 01-adblock.conf to /etc/dnsmasq.d/
+* Copy adblock to /etc/logrotate.d/
 * Run update_adblock_hosts.sh.
 * Cron update_adblock_hosts.sh to run daily.
