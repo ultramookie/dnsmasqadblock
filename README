@@ -1,0 +1,10 @@
+# Adblocking
+
+Create a simple dnsmasq server for blocking ads network-wide.
+
+On Debian/Ubuntu:
+
+* apt-get install dnsmasq
+* Copy 01-adblock.conf to /etc/dnsmasq.d/
+* Run update_adblock_hosts.sh.
+* Cron update_adblock_hosts.sh to run daily.
